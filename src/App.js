@@ -11,6 +11,7 @@ function App() {
     <Routes>
       <Route path="/" element={<Layout />}>
         <Route index element={<HelloStrangers />} />
+        <Route path="test" element={<HelloStrangers />} />
         <Route path=":id" element={<ShowSpravka />} />
       </Route>
     </Routes>
